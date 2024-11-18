@@ -1,0 +1,201 @@
+  
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+  .custom-padding {
+      padding-left: 150px; 
+    }
+
+    .custom-btn {
+      background-color: #FF4500; 
+      color: white; 
+      border: none; 
+      transition: background-color 0.3s ease, transform 0.6s ease; 
+    }
+
+    .custom-btn:hover {
+      background-color: #605f5e; 
+      color: white; 
+   
+    }
+
+    .col {
+      height: 600px; 
+      width: auto; 
+      overflow: hidden;
+  }
+
+  .col img {
+      width: 200px;
+      height:600px; 
+      object-fit: cover; 
+  }
+
+  .row{
+    background-color: rgba(210, 210, 210, 0.66);
+  }
+
+
+  .col {
+    text-align: center; 
+    padding: 10px; 
+}
+.col img{
+  margin: 20px;
+  padding-top: 20px;
+  width: 250px;
+  height: 450px;
+}
+
+.custom-row{
+  padding: 110px 200px;
+}
+
+.ss{
+  margin: 0px 30px;
+  font-family: fantasy;
+}
+.col img{
+  transition: all 0.4s ease-in-out;
+}
+.col img:hover{
+  transition: ease 8.s;
+  transform:  scale(1.03); 
+  filter: brightness(1.1); 
+
+opacity: 0.9; 
+}
+
+
+
+
+
+
+.custom-rowr{
+  padding:  0px 130px;
+  
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-mode {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+.navbar.light-mode {
+  background-color: #f8f9fa; 
+}
+
+.navbar.dark-mode {
+  background-color: #343a40; 
+}
+
+.dropdown-menu.light-mode {
+  background-color: #f8f9fa; 
+  color: #000000;
+}
+
+.dropdown-menu.dark-mode {
+  background-color: #343a40; 
+  color: #ffffff;
+}
+
+.nav-link.light-mode,
+.dropdown-item.light-mode {
+  color: #000000; 
+}
+
+.nav-link.dark-mode,
+.dropdown-item.dark-mode {
+  color: #ffffff; 
+}
+
+
+.textf{
+  font-family: fantasy;
+  color: #FF4500;
+}
+
+
+
+
+
+.h4new{
+margin: 22px;
+}
+
+
+
+.position-relative {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 24%; 
+  margin-top: 50%;
+  background-color: rgba(255, 0, 0, 0.7); 
+  color: white;
+  padding: 10px; 
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
+  text-align: center; 
+  align-items: center;
+  width: 93%; 
+}
+
+.colclass:hover .overlay {
+  opacity: 1; 
+  height: 15%;
+  
+}
+.img-fulid{
+  transition: all 0.3s ease-in-out;
+}
+.img-fluid:hover{
+  transition: ease 7.s;
+  transform:  scale(1.02); 
+  filter: brightness(1.1); 
+}
+.fa-regular{
+  position: absolute;
+  font-size: 25px;
+  right:25px;
+  top: 15px;
+  color: rgb(0, 0, 0);
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
+ 
+   
+}
+.colclass:hover .fa-regular {
+  opacity: 1; 
+ 
+  
+}
+.custom-row {
+  align-items: center; 
+  padding:  50px 180px; 
+}
+
+.immg{
+  width: 1000px;
+}
+
+.footer-links {
+  background-color: #840000; 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.text-dark {
+  text-decoration: none;
+
+}
+
+
